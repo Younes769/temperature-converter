@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    gap: 8rem;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f1f1f1;
+    background: url(pics/626893.jpg) no-repeat center center fixed;
+
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+.celsius{
+    background-color: #fa6868;
+    padding: 4rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    
+}
+.fahrenheit{
+    background-color: #68a0fa;
+    padding: 4rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    
+}
